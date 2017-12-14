@@ -1,0 +1,88 @@
+{
+    "blogs" : {
+        "blog1" : {
+            "title" : "I don't wanna blog..",
+            "date" : "August 13, 2017",
+            "content" : "I just wanna code."
+        },
+        "blog2" : {
+            "title" : "I'll Never Eat Another Nugget",
+            "date" : "August 30, 2017",
+            "content" : "The nugget factory taught me functions and the horrors of food processing."
+        },
+        "blog3" : {
+            "title" : "Duck, Duck, Goose",
+            "date" : "September 13, 2017",
+            "content" : "I'm still waiting for my duck to actually help me!"
+        },
+        "blog4" : {
+            "title" : "Promise!",
+            "date" : "September 20, 2017",
+            "content" : "Lots and lots of broken promises.."
+        },
+        "blog5" : {
+            "title" : "Crying is Cool",
+            "date" : "October 1, 2017",
+            "content" : "Code cried for an hour and then remembered to git cleanit..."
+        },
+        "blog6" : {
+            "title" : "Found it!!",
+            "date" : "October 13, 2017",
+            "content" : ";"
+        },
+        "blog7" : {
+            "title" : "Confession",
+            "date" : "October 31, 2017",
+            "content" : "I just Googled 'event.target in angularJS'"
+        },
+        "blog8" : {
+            "title" : "SASS",
+            "date" : "November 3, 2017",
+            "content" : "A four letter word for CSS."
+        },
+        "blog9" : {
+            "title" : "Gulp..",
+            "date" : "November 18, 2017",
+            "content" : "When your teacher tells you that you're the most difficult student they've EVER had."
+        },
+        "blog10" : {
+            "title" : "Sorry, Not Sorry?",
+            "date" : "November 25, 2017",
+            "content" : "An apology with a 'but' in the middle just makes you an asshole."
+        },
+        "blog11" : {
+            "title" : "Idiot Scope",
+            "date" : "December 8, 2017",
+            "content" : "Prototypal inheritance is proof of JavaScript's low iq."
+        },
+        "blog12" : {
+            "title" : "Last One..",
+            "date" : "December 13, 2017",
+            "content" : "There. That's 12 blogs."
+        }
+    },
+
+    "projects" : {
+        "project1" : {
+            "title" : "snagStat",
+            "description" : "a hot mess..",
+            "tech" : "AngularJs, Bootstrap, SASS, Firebase",
+            "repo" : "https://github.com/lady-ace/snagStats",
+            "site" : "coming soon.."
+        },
+        "project2" : {
+            "title" : "All My Peeps",
+            "description" : "Just another contacts app. That's about it..",
+            "tech" : "AngularJS, Bootstrap, SASS, Firebase",
+            "repo" : "https://github.com/lady-ace/AngularContacts",
+            "site" : "https://allmypeeps-41395.firebaseapp.com/#!/auth"
+        },
+        "project3" : {
+            "title" : "Movie Stack",
+            "description" : "Search movies, add them to a wishlist",
+            "tech" : "AngularJS, Bootstrap, SASS, Firebase",
+            "repo" : "https://github.com/lady-ace/AngularMovieHistory",
+            "site" : "https://moviestack-7af89.firebaseapp.com/#!/auth"
+        }
+    }
+}
