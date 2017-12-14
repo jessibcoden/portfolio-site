@@ -65,6 +65,7 @@
     "projects" : {
         "project1" : {
             "title" : "snagStat",
+            "icon" : "assessment",
             "description" : "a hot mess..",
             "tech" : "AngularJs, Bootstrap, SASS, Firebase",
             "repo" : "https://github.com/lady-ace/snagStats",
@@ -72,6 +73,7 @@
         },
         "project2" : {
             "title" : "All My Peeps",
+            "icon" : "contacts",
             "description" : "Just another contacts app. That's about it..",
             "tech" : "AngularJS, Bootstrap, SASS, Firebase",
             "repo" : "https://github.com/lady-ace/AngularContacts",
@@ -79,6 +81,7 @@
         },
         "project3" : {
             "title" : "Movie Stack",
+            "icon" : "movie",
             "description" : "Search movies, add them to a wishlist",
             "tech" : "AngularJS, Bootstrap, SASS, Firebase",
             "repo" : "https://github.com/lady-ace/AngularMovieHistory",
