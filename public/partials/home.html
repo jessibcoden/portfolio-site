@@ -1,0 +1,100 @@
+<nav class="white" role="navigation">
+    <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">SheDev</a>
+        <ul class="right hide-on-med-and-down">
+        <li><a href="#!/blogs">Blog'ish</a></li>
+        </ul>
+    </div>
+</nav>
+
+
+<div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <br><br>
+        <h1 class="header center yellow-text yellow-lighten-2">jessB/dev'n</h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Shut up. I'm coding...</h5>
+        </div>
+
+        <!-- BUTTON -->
+        <!-- <div class="row center">
+          <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
+        </div> -->
+
+        <br><br>
+
+      </div>
+    </div>
+    <div class="parallax"><img src="./images/notMe.jpeg" alt="Unsplashed background img 1"></div>
+  </div>
+
+<!-- ABOUT -->
+  <div class="container">
+      <div class="section">
+  
+        <div class="row">
+          <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>ABOUT</h4>
+            <p class="left-align light">I first entered the tech community in 2008 when I stumbled into a technical recruitment role and quickly found myself in over my head and completely lost in most conversations. Some incredibly talented developers in the community took pity on me and taught me the verbiage and nuances of the different tech stacks.  I found it all very interesting but was content to only know what I needed to in order to not sound like a complete moron when speaking with candidates and managers.</p>
+            <p class="left-align light">In 2009 I was peppering one of my SME’s with questions over coffee when he laid an old, worn out paperback book on the table and said “Here. Just read this.” I graciously accepted the tattered gift thinking great, another tech book that I won’t be able to understand or make it through.  It was his 20+ year old copy of The Soul of a New Machine by Tracy Kidder.  That book turned my interest into intrigue. I no longer HAD to learn about development, I GOT to learn about it. </p>
+            <p class="left-align light">After 8 years of talking about coding, I’d developed a pretty serious case of skill envy.  So, in 2016 I left recruiting and joined Nashville Software School to lead the Career Development piece of the immersive bootcamp and eventually put my hands on some code as a student in the evening program. Now, after all these years, I get it.. What started out as a necessary interest, then sincere intrigue, now borders on obsession (in the healthiest way possible, in my opinion).  I’ve found that thing that I love to do, and learn about, and talk about.</p>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">"Failure is the condiment that gives success its flavor."</h5>
+          <p class="header col s12 light">- Truman Capote</p>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./images/help.jpeg" alt="Unsplashed background img 2"></div>
+  </div>
+
+
+<!-- PROJECTS -->
+<div class="container">
+    <div class="section">
+
+      <h2 class="header center  teal-lighten-2">Projects</h1>
+      
+      <div class="row">
+
+        <!-- PROJECT 1 -->
+        <div class="col s12 m4" ng-repeat="project in projects">
+          <div class="icon-block">
+            <h2 class="center teal-text"><i class="material-icons">{{project.icon}}</i></h2>
+            <h5 class="center">{{project.title}}</h5>
+
+            <p class="light">{{project.description}}</p>
+            <a class="waves-effect waves-light btn-floating social github" href="{{project.repo}}">
+                <i class="fa fa-github"></i> {{project.title}} Repo</a>
+            <a class="waves-effect waves-light btn-floating social" href="{{project.site}}">
+                    <i class="fa fa-globe"></i> {{project.title}} Repo</a>
+
+          </div>
+        </div>
+
+       
+
+
+<!-- ////////////////////////// -->
+
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">"Opportunity is missed by most people because it is dressed in overalls and looks like work."</h5>
+          <p class="header col s12 light">- Thomas Eddison</p>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="./images/lightPort.jpeg" alt="Unsplashed background img 3"></div>
+  </div>
